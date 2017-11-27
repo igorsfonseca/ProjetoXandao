@@ -1,0 +1,88 @@
+.a {
+	text-decoration: none;
+}
+@media only screen and (max-width: 700px) {
+    b{
+    	font-size: 30px;
+    	display: block;
+    	cursor: pointer;
+    	background-color: rgba(255,255,255,0.9);
+    }
+    nav{
+    	display: none;
+    }
+    .container-fluid{
+    display: block;
+	position: fixed;
+	left: -250px;
+	width: 350px;
+	height: 0px;
+	background-color: rgba(255,255,255,0.9);
+	transition: all 0.4s linear;
+	}
+	.container-fluid ul{
+		list-style-type: none;
+		margin-left: -8%;
+	}
+	.container-fluid ul li{
+		padding-bottom: 2%;
+	}
+	.container-fluid ul li a{
+		font-size: 20px;
+	}
+	.container-fluid ul li a:hover{
+	background-color: gray;
+	color: white;
+	}
+    header h1{
+	text-align: center;
+	font-size: 30px;
+
+	}
+	.item{
+	float: left;
+	width: 93%;
+	}
+	.item2{
+	float: left;
+	width: 93%;
+	}
+	.ser1{
+	float: left;
+	width: 93%;
+	}
+	.ser2{
+	float: left;
+	width: 93%;
+	}
+	.ser3{
+	float: left;
+	width: 93%;
+	}
+	.subitem1{
+	float: left;
+	width: 90%;
+	margin-left: 10%;
+	}
+	.subitem2{
+	float: left;
+	width: 85%;
+	margin-left: 8%;
+	}
+	.subitem2 h3{
+		font-size: 18px;
+		text-align: center;
+	}
+	.subitem2 button{
+		text-align: center;
+	}
+}
+
+@media only screen and (min-width: 701px) {
+	
+	b{
+    	display: none;
+    }
+    .container-fluid ul li a{
+	font-size: 19px;
+}
